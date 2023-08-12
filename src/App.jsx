@@ -24,46 +24,4 @@ const App = () => {
   )
 };
 
-
-// const NavBar = () => {
-//   return (
-//     <nav>
-//       <div id="title">
-//         <p>Yard Keeper</p>
-//         <div id="subtitle">
-//           <p id="p1">Keep</p>
-//           <p> your yard, living better!</p>
-//         </div>
-//       </div>
-//         <NavDropdown/>
-//       </nav>
-//   )
-// };
-
-// const NavDropdown = () => {
-//   return (
-//     <ul className="dropdown">
-//       {/* <span className="navbar-burger">
-//       <BurgerIcon/>
-//       </span> */}
-//       <img className="navbar-burger" src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/menu.png">
-//       </img>
-//         <div className="dropdown-content">
-//           {/* <NavItem link="#" text = "Home"/> */}
-//           <NavItem link="#" text="Login"/>
-//           <NavItem link="#" text="Help"/>
-//         </div>
-//     </ul>
-//   )
-// };
-
-// const NavItem = ({text, link}) => {
-//   return (
-//     <li className= "nav-item">
-//     <a href={link} className="nav-button">{text}</a>
-//     </li>
-//   )
-// };
-
-
 export default App;
