@@ -32,18 +32,3 @@ const NavItem = ({text, link}) => {
   };
   
   export default Navbar;
-
-  // const NavBar = () => {
-//     return (
-//       <nav>
-//         <div id="title">
-//           <p>Yard Keeper</p>
-//           <div id="subtitle">
-//             <p id="p1">Keep</p>
-//             <p> your yard, living better!</p>
-//           </div>
-//         </div>
-//           <NavDropdown/>
-//         </nav>
-//     )
-//   };
