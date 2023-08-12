@@ -1,0 +1,18 @@
+/* 
+@media only screen and (min-width:1080px) {
+  .nav-buttons {
+    display: none;
+  }
+}
+  .dropdown {
+    display: flex;
+}
+
+@media only screen and (min-width: 720px) {
+  .nav-buttons {
+    display: flex;
+}
+  .dropdown {
+    display: none;
+  }
+} */

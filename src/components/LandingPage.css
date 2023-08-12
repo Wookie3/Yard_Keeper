@@ -1,0 +1,35 @@
+.intro {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.selections {
+    display: flex;
+    justify-content: space-around;
+
+}
+.select-box {
+    height: 600px;
+    width: 500px;
+    text-align: center;
+    background-color: #A7AAA4;
+    height: 350px;
+    width: 300px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.select-box a {
+    text-decoration: none;
+    color: inherit;
+}
+.select-box img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.select-box:hover {
+opacity: 0.8;
+}
