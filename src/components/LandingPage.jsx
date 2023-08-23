@@ -1,11 +1,9 @@
-import Navbar from './Navbar.jsx';
 import './LandingPage.css'
 const LandingPage = () => {
     const handleClick = () => {
     }
     return (
         <>
-        <Navbar/>
         <p className="intro">Select from one of our options to get started today</p>
         <div className="selections">
             <div className="select-box" onClick={handleClick}>

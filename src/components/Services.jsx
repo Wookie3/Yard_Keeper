@@ -1,6 +1,5 @@
 
 import { useState } from 'react';
-import Navbar from './Navbar';
 import './Services.css';
 
 const Services = () => {
@@ -16,7 +15,6 @@ const Services = () => {
 }
   return (
     <>
-    <Navbar/>
       <div className="services-tabs">
         <ScerviceTab tabState= "planting" title= "Planting"/>
         <ScerviceTab tabState= "stonework" title= "Stonework"/>

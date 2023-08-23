@@ -18,6 +18,14 @@ nav {
   background-color: #389463;
   height: 85px;
   border-radius: 6px;
+
+}
+
+.no-page {
+  text-align: center;
+  padding: 30vw;
+  background: #247E9E;
+  font-size: 24px;
 }
 
 .title-div {
@@ -60,7 +68,7 @@ display: inline-block;
   background-color:  #242526;
   min-width: 65px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  height: 90px;
+  height: 135px;
   width: 70px;
   flex-direction: column;
   justify-content: space-evenly;
@@ -69,6 +77,10 @@ display: inline-block;
   border-radius: 5px;
   text-align: center;
 }
+
+/* .dropdown-content { 
+  height: 90px;
+} */
 
 .dropdown:hover .dropdown-content {
   display: flex;
@@ -85,6 +97,11 @@ display: inline-block;
 
 .dropdown-content a:hover {
   background-color: gray;
+}
+
+.nav-btn {
+  margin: 0;
+  padding: 20px 5vw 0 0;
 }
 
 /*
