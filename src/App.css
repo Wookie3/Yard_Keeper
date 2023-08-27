@@ -1,30 +1,13 @@
 /* Styles for app and Navbar */
-main {
-  background-color: lightgray;
-  font-family: 'Inter', sans-serif;    
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none
-}
-
-nav {
-  display: flex;
-  background-color: #389463;
-  height: 85px;
-  border-radius: 6px;
-
+.main {
+  background-color: #8ad1ab;
+  font-family: 'Inter', sans-serif;
 }
 
 .no-page {
   text-align: center;
   padding: 30vw;
-  background: #247E9E;
+  background: #3389da;
   font-size: 24px;
 }
 
@@ -50,67 +33,9 @@ nav {
   padding: 0;
   margin: 0;
 }
-
-
-
-.navbar-burger {
-height: 30px;
-width: 30px;
-padding: 20px 40px;
-filter: invert(100%);
-position: relative;
-display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color:  #242526;
-  min-width: 65px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  height: 135px;
-  width: 70px;
-  flex-direction: column;
-  justify-content: space-evenly;
-  right: 45px;
-  top: 65px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-/* .dropdown-content { 
-  height: 90px;
-} */
-
-.dropdown:hover .dropdown-content {
-  display: flex;
-}
-
-.dropdown-content a {
-  text-decoration: none;
-  background-color: #484a4d;
-  border-radius: 4px;
-  font-size: 18px;
-  color: black;
-  padding: 4px;
-}
-
-.dropdown-content a:hover {
-  background-color: gray;
-}
-
-.nav-btn {
-  margin: 0;
-  padding: 20px 5vw 0 0;
-}
-
-/*
-#login-btn {
+h3 {
+  font-family: 'Satisfy', cursive;
   font-size: 22px;
-  background-color: #97979B;
-  border-radius: 5px;
-  padding: 2px 10px;
+  padding: 0;
+  margin: 0;
 }
-#login-btn:hover {
-background-color: #95C787;
-} */

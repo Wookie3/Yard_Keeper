@@ -1,6 +1,7 @@
 import "./App.css";
 import { Routes, Route, Outlet } from "react-router-dom";
 import NoPage from "./components/NoPage.jsx";
+import Footer from "./components/PageFooter.jsx";
 import LandscapeDesign from "./components/LandscapeDesign.jsx";
 import Services from "./components/Services.jsx";
 import LandingPage from "./components/LandingPage.jsx";
@@ -9,7 +10,7 @@ import NavBar from "./components/Navbar.jsx";
 
 const App = () => {
   return (
-    <div>
+    <div className="main">
       <Layout />
       <Routes>
         <Route index element={<LandingPage />} />
@@ -29,7 +30,7 @@ const Layout = () => {
     <>
       <NavBar />
       <Outlet />
-      {/* <Footer/> */}
+      <Footer />
     </>
   );
 };

@@ -1,28 +1,28 @@
+.landing {
+    margin-bottom: 75px;
+    background-color: #8ad1ab; 
+}
 .intro {
     text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    padding: 1vw 0;
 }
 .selections {
     display: flex;
     justify-content: space-around;
-
+    padding-bottom: 4vw;
 }
 .select-box {
-    height: 600px;
-    width: 500px;
     text-align: center;
-    background-color: #A7AAA4;
+    background-color: #72a069;
     height: 350px;
     width: 300px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-}
-
-.select-box a {
+    font-family: 'Satisfy', cursive;
     text-decoration: none;
     color: inherit;
+    font-size: 24px;
 }
 .select-box img {
     height: 250px;
