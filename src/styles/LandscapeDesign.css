@@ -1,0 +1,50 @@
+.designMain {
+    background-color: #e2dbd2;
+}
+.designHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #e2dbd2;
+}
+.designForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0;
+    padding: 25px;
+    background-color: #e2dbd2;
+}
+.designInput {
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    width: 350px;;
+}
+.dialogContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.submitButton {
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    width: 100px;
+    background-color: #247E9E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

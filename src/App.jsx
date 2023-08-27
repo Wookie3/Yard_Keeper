@@ -1,27 +1,37 @@
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import LandscapeDesign from './components/LandscapeDesign.jsx';
-import Services from './components/Services.jsx';
-import LandingPage from './components/LandingPage.jsx';
-import Schedule from './components/Schedule.jsx';
-
+import "./App.css";
+import { Routes, Route, Outlet } from "react-router-dom";
+import NoPage from "./components/NoPage.jsx";
+import Footer from "./components/PageFooter.jsx";
+import LandscapeDesign from "./components/LandscapeDesign.jsx";
+import Services from "./components/Services.jsx";
+import LandingPage from "./components/LandingPage.jsx";
+import Schedule from "./components/Schedule.jsx";
+import NavBar from "./components/Navbar.jsx";
 
 const App = () => {
-  
   return (
-    <main>
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<LandingPage/>} />
-          <Route path="/home" element={<LandingPage/>} />
-          <Route path="/schedule" element={<Schedule/>}/>
-          <Route path="/services" element={<Services/>} />
-          <Route path="/design" element={<LandscapeDesign/>} />
-          {/* <Route path="*" element={<NoPage/>} /> */}
-        </Routes>
-      </BrowserRouter>
-    </main>
-  )
+    <div className="main">
+      <Layout />
+      <Routes>
+        <Route index element={<LandingPage />} />
+        <Route path="/" element={<Layout />} />
+        <Route path="/home" element={<LandingPage />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/design" element={<LandscapeDesign />} />
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+    </div>
+  );
 };
 
+const Layout = () => {
+  return (
+    <>
+      <NavBar />
+      <Outlet />
+      <Footer />
+    </>
+  );
+};
 export default App;
